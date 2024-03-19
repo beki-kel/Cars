@@ -1,0 +1,100 @@
+{
+    "cars": [
+      {
+        "id": 1,
+        "brand": "Toyota",
+        "model": "Camry",
+        "type": "sedan",
+        "plateNumber": "ABC123",
+        "pricing": {
+          "amount": 250,
+          "currency": "Birr",
+          "unit": "per km"
+        }
+      },
+      {
+        "id": 2,
+        "brand": "Honda",
+        "model": "Civic",
+        "type": "sedan",
+        "plateNumber": "DEF456",
+        "pricing": {
+          "amount": 200,
+          "currency": "Birr",
+          "unit": "per km"
+        }
+      },
+      {
+        "id": 3,
+        "brand": "Ford",
+        "model": "Escape",
+        "type": "SUV",
+        "plateNumber": "GHI789",
+        "pricing": {
+          "amount": 300,
+          "currency": "Birr",
+          "unit": "per km"
+        }
+      },
+      {
+        "id": 4,
+        "brand": "Chevrolet",
+        "model": "Tahoe",
+        "type": "SUV",
+        "plateNumber": "JKL012",
+        "pricing": {
+          "amount": 400,
+          "currency": "Birr",
+          "unit": "per km"
+        }
+      },
+      {
+        "id": 5,
+        "brand": "Tesla",
+        "model": "Model 3",
+        "type": "electric",
+        "plateNumber": "MNO345",
+        "pricing": {
+          "amount": 500,
+          "currency": "Birr",
+          "unit": "per km"
+        }
+      },
+      {
+        "id": 6,
+        "brand": "BMW",
+        "model": "X5",
+        "type": "luxury SUV",
+        "plateNumber": "PQR678",
+        "pricing": {
+          "amount": 700,
+          "currency": "Birr",
+          "unit": "per km"
+        }
+      },
+      {
+        "id": 7,
+        "brand": "Mercedes-Benz",
+        "model": "C-Class",
+        "type": "luxury sedan",
+        "plateNumber": "STU901",
+        "pricing": {
+          "amount": 900,
+          "currency": "Birr",
+          "unit": "per km"
+        }
+      },
+      {
+        "id": 8,
+        "brand": "Jeep",
+        "model": "Wrangler",
+        "type": "off-road",
+        "plateNumber": "VWX234",
+        "pricing": {
+          "amount": 350,
+          "currency": "Birr",
+          "unit": "per km"
+        }
+      }
+    ]
+  }
