@@ -1,100 +1,194 @@
 {
-    "cars": [
-      {
-        "id": 1,
-        "brand": "Toyota",
-        "model": "Camry",
-        "type": "sedan",
-        "plateNumber": "ABC123",
-        "pricing": {
-          "amount": 250,
-          "currency": "Birr",
-          "unit": "per km"
-        }
-      },
-      {
-        "id": 2,
-        "brand": "Honda",
-        "model": "Civic",
-        "type": "sedan",
-        "plateNumber": "DEF456",
-        "pricing": {
-          "amount": 200,
-          "currency": "Birr",
-          "unit": "per km"
-        }
-      },
-      {
-        "id": 3,
-        "brand": "Ford",
-        "model": "Escape",
-        "type": "SUV",
-        "plateNumber": "GHI789",
-        "pricing": {
-          "amount": 300,
-          "currency": "Birr",
-          "unit": "per km"
-        }
-      },
-      {
-        "id": 4,
-        "brand": "Chevrolet",
-        "model": "Tahoe",
-        "type": "SUV",
-        "plateNumber": "JKL012",
-        "pricing": {
-          "amount": 400,
-          "currency": "Birr",
-          "unit": "per km"
-        }
-      },
-      {
-        "id": 5,
-        "brand": "Tesla",
-        "model": "Model 3",
-        "type": "electric",
-        "plateNumber": "MNO345",
-        "pricing": {
-          "amount": 500,
-          "currency": "Birr",
-          "unit": "per km"
-        }
-      },
-      {
-        "id": 6,
-        "brand": "BMW",
-        "model": "X5",
-        "type": "luxury SUV",
-        "plateNumber": "PQR678",
-        "pricing": {
-          "amount": 700,
-          "currency": "Birr",
-          "unit": "per km"
-        }
-      },
-      {
-        "id": 7,
-        "brand": "Mercedes-Benz",
-        "model": "C-Class",
-        "type": "luxury sedan",
-        "plateNumber": "STU901",
-        "pricing": {
-          "amount": 900,
-          "currency": "Birr",
-          "unit": "per km"
-        }
-      },
-      {
-        "id": 8,
-        "brand": "Jeep",
-        "model": "Wrangler",
-        "type": "off-road",
-        "plateNumber": "VWX234",
-        "pricing": {
-          "amount": 350,
-          "currency": "Birr",
-          "unit": "per km"
-        }
+  "car": [
+    {
+      "externalId": "12345",
+      "brand": "Toyota",
+      "owner": "John Doe",
+      "plateNo": "ABC123",
+      "color": "Red",
+      "capacity": 5,
+      "pickUp": "Location A",
+      "dropOff": "Location B",
+      "numberOfPassengers": 4,
+      "driverID": "6789",
+      "drivername": "Driver Name",
+      "driverrating": 8,
+      "pricing": {
+        "amount": 250,
+        "currency": "Birr",
+        "unit": "per km"
       }
-    ]
-  }
+    },
+    {
+      "externalId": "54321",
+      "brand": "Honda",
+      "owner": "Jane Smith",
+      "plateNo": "DEF456",
+      "color": "Blue",
+      "capacity": 4,
+      "pickUp": "Location C",
+      "dropOff": "Location D",
+      "numberOfPassengers": 3,
+      "driverID": "9876",
+      "drivername": "Another Driver",
+      "driverrating": 7.5,
+      "pricing": {
+        "amount": 200,
+        "currency": "Birr",
+        "unit": "per km"
+      }
+    },
+    {
+      "externalId": "67890",
+      "brand": "Ford",
+      "owner": "Alice Johnson",
+      "plateNo": "GHI789",
+      "color": "Black",
+      "capacity": 7,
+      "pickUp": "Location E",
+      "dropOff": "Location F",
+      "numberOfPassengers": 6,
+      "driverID": "5432",
+      "drivername": "Driver Three",
+      "driverrating": 9,
+      "pricing": {
+        "amount": 300,
+        "currency": "Birr",
+        "unit": "per km"
+      }
+    },
+    {
+      "externalId": "13579",
+      "brand": "Chevrolet",
+      "owner": "Bob Johnson",
+      "plateNo": "JKL012",
+      "color": "Silver",
+      "capacity": 4,
+      "pickUp": "Location G",
+      "dropOff": "Location H",
+      "numberOfPassengers": 3,
+      "driverID": "2468",
+      "drivername": "Driver Four",
+      "driverrating": 7,
+      "pricing": {
+        "amount": 350,
+        "currency": "Birr",
+        "unit": "per km"
+      }
+    },
+    {
+      "externalId": "24680",
+      "brand": "Tesla",
+      "owner": "Elon Musk",
+      "plateNo": "MNO345",
+      "color": "White",
+      "capacity": 2,
+      "pickUp": "Location I",
+      "dropOff": "Location J",
+      "numberOfPassengers": 1,
+      "driverID": "1357",
+      "drivername": "Driver Five",
+      "driverrating": 9.5,
+      "pricing": {
+        "amount": 400,
+        "currency": "Birr",
+        "unit": "per km"
+      }
+    },
+    {
+      "externalId": "97531",
+      "brand": "BMW",
+      "owner": "Chris Evans",
+      "plateNo": "PQR678",
+      "color": "Black",
+      "capacity": 4,
+      "pickUp": "Location K",
+      "dropOff": "Location L",
+      "numberOfPassengers": 3,
+      "driverID": "9876",
+      "drivername": "Driver Six",
+      "driverrating": 8.5,
+      "pricing": {
+        "amount": 500,
+        "currency": "Birr",
+        "unit": "per km"
+      }
+    },
+    {
+      "externalId": "86420",
+      "brand": "Mercedes-Benz",
+      "owner": "Emma Stone",
+      "plateNo": "STU901",
+      "color": "Gray",
+      "capacity": 5,
+      "pickUp": "Location M",
+      "dropOff": "Location N",
+      "numberOfPassengers": 4,
+      "driverID": "3579",
+      "drivername": "Driver Seven",
+      "driverrating": 8,
+      "pricing": {
+        "amount": 600,
+        "currency": "Birr",
+        "unit": "per km"
+      }
+    },
+    {
+      "externalId": "75319",
+      "brand": "Jeep",
+      "owner": "Scarlett Johansson",
+      "plateNo": "VWX234",
+      "color": "Green",
+      "capacity": 5,
+      "pickUp": "Location O",
+      "dropOff": "Location P",
+      "numberOfPassengers": 4,
+      "driverID": "2468",
+      "drivername": "Driver Eight",
+      "driverrating": 7.5,
+      "pricing": {
+        "amount": 450,
+        "currency": "Birr",
+        "unit": "per km"
+      }
+    },
+    {
+      "externalId": "42069",
+      "brand": "Audi",
+      "owner": "Robert Downey Jr.",
+      "plateNo": "YZA567",
+      "color": "Black",
+      "capacity": 4,
+      "pickUp": "Location Q",
+      "dropOff": "Location R",
+      "numberOfPassengers": 3,
+      "driverID": "1357",
+      "drivername": "Driver Nine",
+      "driverrating": 9.5,
+      "pricing": {
+        "amount": 550,
+        "currency": "Birr",
+        "unit": "per km"
+      }
+    },
+    {
+      "externalId": "10101",
+      "brand": "Kia",
+      "owner": "Jennifer Lawrence",
+      "plateNo": "BCD789",
+      "color": "Blue",
+      "capacity": 4,
+      "pickUp": "Location S",
+      "dropOff": "Location T",
+      "numberOfPassengers": 3,
+      "driverID": "3579",
+      "drivername": "Driver Ten",
+      "driverrating": 8,
+      "pricing": {
+        "amount": 300,
+        "currency": "Birr",
+        "unit": "per km"
+      }
+    }
+  ]
+}
