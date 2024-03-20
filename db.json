@@ -1,7 +1,7 @@
 {
   "car": [
     {
-      "externalId": "12345",
+      "id": "12345",
       "brand": "Toyota",
       "owner": "John Doe",
       "plateNo": "ABC123",
@@ -20,7 +20,7 @@
       }
     },
     {
-      "externalId": "54321",
+      "id": "54321",
       "brand": "Honda",
       "owner": "Jane Smith",
       "plateNo": "DEF456",
@@ -39,7 +39,7 @@
       }
     },
     {
-      "externalId": "67890",
+      "id": "67890",
       "brand": "Ford",
       "owner": "Alice Johnson",
       "plateNo": "GHI789",
@@ -58,7 +58,7 @@
       }
     },
     {
-      "externalId": "13579",
+      "id": "13579",
       "brand": "Chevrolet",
       "owner": "Bob Johnson",
       "plateNo": "JKL012",
@@ -77,7 +77,7 @@
       }
     },
     {
-      "externalId": "24680",
+      "id": "24680",
       "brand": "Tesla",
       "owner": "Elon Musk",
       "plateNo": "MNO345",
@@ -96,7 +96,7 @@
       }
     },
     {
-      "externalId": "97531",
+      "id": "97531",
       "brand": "BMW",
       "owner": "Chris Evans",
       "plateNo": "PQR678",
@@ -115,7 +115,7 @@
       }
     },
     {
-      "externalId": "86420",
+      "id": "86420",
       "brand": "Mercedes-Benz",
       "owner": "Emma Stone",
       "plateNo": "STU901",
@@ -134,7 +134,7 @@
       }
     },
     {
-      "externalId": "75319",
+      "id": "75319",
       "brand": "Jeep",
       "owner": "Scarlett Johansson",
       "plateNo": "VWX234",
@@ -153,7 +153,7 @@
       }
     },
     {
-      "externalId": "42069",
+      "id": "42069",
       "brand": "Audi",
       "owner": "Robert Downey Jr.",
       "plateNo": "YZA567",
@@ -172,7 +172,7 @@
       }
     },
     {
-      "externalId": "10101",
+      "id": "10101",
       "brand": "Kia",
       "owner": "Jennifer Lawrence",
       "plateNo": "BCD789",
